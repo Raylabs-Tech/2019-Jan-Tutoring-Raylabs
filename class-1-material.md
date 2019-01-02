@@ -21,3 +21,24 @@ If you write a = 1.0 a will become of floating type. Here is a small program to 
 36
 
 ```
+
+To print a string in Python we simply do the following:
+
+```
+
+print("Hello, It's RayLabs Technologies")
+
+```
+
+## Reading input from the Keyboard
+
+In Python we use input function to do input. input(“String to show”) , this will return a string as output. Let us write a program to read a number from the keyboard and check if it is less than 100, the same program we did in the class today.
+
+```
+number = int(input("Enter an integer: "))
+if number < 100:
+    print("Your number is smaller than 100")
+else:
+    print("Your number is greater than 100")
+```
+
