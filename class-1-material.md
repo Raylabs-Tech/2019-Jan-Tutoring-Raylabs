@@ -44,3 +44,20 @@ else:
     print("Your number is greater than 100")
 ```
 
+## Multiple assignments in a single line
+You can even assign values to multiple variables in a single line, like
+```
+>>> a , b = 45, 54
+>>> a
+45
+>>> b
+54
+```
+Using this swapping two numbers becomes very easy
+```
+>>> a, b = b , a
+>>> a
+54
+>>> b
+45
+```
