@@ -93,3 +93,42 @@ for i in range(0,n):
  . . .
 
 range(i,j) generates sequence i,i+1,…,j-1
+
+----
+
+## Example
+
+Find all factors of a number n
+
+Factors must lie between 1 and n
+```
+def factors(n):
+ flist = []
+ for i in range(1,n+1):
+ if n%i == 0:
+ flist = flist + [i]
+ return(flist)
+``` 
+Loop based on a condition
+Often we don’t know number of repetitions in
+advance
+
+
+while condition:
+ . . .
+Execute body if condition evaluates to True
+After each iteration, check condition again
+Body must ensure progress towards termination!
+
+## Example
+
+Euclid’s gcd algorithm using remainder
+Update m, n till we find n to be a divisor of m
+```
+def gcd(m,n):
+ if m < n:
+ (m,n) = (n,m)
+ while m%n != 0:
+ (m,n) = (n,m%n)
+ return(n)
+``` 
