@@ -112,3 +112,18 @@ def factorial(n):
  val = n * factorial(n-1)
  return(val)
 ``` 
+## for and while
+
+Can use while to simulate for
+
+However, use for where it is natural
+
+Makes for more readable code
+
+What makes a good program?
+
+Correctness and efficiency — algorithm
+
+Readability, ease of maintenance — style
+
+What you say, and how you say it
